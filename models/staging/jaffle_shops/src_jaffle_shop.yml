@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dbt_raw
+    database: code_repo
+    schema: dbt_raw
+    tables:
+      - name: customers
+      - name: orders
